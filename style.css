@@ -5,6 +5,11 @@
     font-family: "Plus Jakarta Sans", serif;
 }
 
+header
+{
+    position: relative;
+}
+
 .hero-section-image 
 {
     width: 100%;
@@ -104,9 +109,50 @@ button{
     width: 160px;
 }
 
-header
-{
-    position: relative;
+.partners{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.section-title{
+    font-size: 36px;
+    font-family: "Bricolage Grotesque", serif;
+}
+
+.section-title-sm{
+    font-size: 24px;
+    font-family: "Bricolage Grotesque", serif;
+}
+
+.partners-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.client-image{
+    width: 100px;
+    object-fit: contain;
+}
+
+.about-section{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-section-image{
+    width: 580px;
+}
+
+.about-section-text{
+    padding: 0px 32px;
+}
+
+.about-section p{
+    line-height: 1.6;
+    font-weight: 200;
+    font-size: 14px;
 }
 
 @media (max-width: 768px) {

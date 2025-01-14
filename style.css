@@ -157,7 +157,7 @@ button{
 
 .services-section{
     margin-top: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 160px;
 }
 
 .section-subtitle{
@@ -193,6 +193,51 @@ button{
     font-size: 14px;
     font-weight: 200;
     line-height: 1.6;
+}
+
+.wcu-section{
+    background-image: url('./images/why-choose-us/Why-choose-us-bg.png');
+    background-color: #0328AA;
+    color: white;
+    padding: 140px 0px;
+}
+
+.wcu-content{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wcu-card h4{
+    font-size: 18px;
+    font-family: "Bricolage Grotesque", serif;
+    margin-bottom: 8px;
+}
+
+.wcu-card p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+.wcu-card{
+    width: 320px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    border-radius: 24px;
+}
+
+.wcu-card .stats{
+    margin-top: 20px;
+}
+
+.wcu-card .stats h3{
+    font-size: 48px;
+}
+
+.wcu-card img{
+    width: 60px;
+    margin-bottom: 24px;
 }
 @media (max-width: 768px) {
     .navbar-content{

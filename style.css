@@ -242,7 +242,6 @@ button{
 
 .testimonial-section{
     padding: 60px 0px;
-    margin-bottom: 300px;
 }
 
 .testimonial-content{
@@ -283,6 +282,50 @@ button{
     margin-top: 20px;
     line-height: 1.6;
 }
+
+
+.team-section{
+    padding: 60px 0px;
+    margin-bottom: 300px;
+}
+
+.team-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team-card{
+    width: 260px;
+}
+
+.team-card-image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.team-card h5{
+    font-size: 20px;
+    font-family: "Bricolage Grotesque", serif;
+    margin-bottom: 4px;
+}
+
+.team-card p{
+    color: #6B72B0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.team-card-socials{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.team-card-socials img{
+    width: 32px;
+}
+
 
 @media (max-width: 768px) {
     .navbar-content{
